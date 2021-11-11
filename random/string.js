@@ -34,24 +34,30 @@ if (mes === "fevereiro") {
     console.log( `${mes} Não é mês festivo` )
 }*/
 
-// 
+// =======================
 
-console.log("Guten abend")
-const input = require('readline-sync')
- const mes = input.question('Que mes sera festivo?')
 
- if (mes = ) {
-     console.log("Mes do carnaval")
+const input = require('readline-sync');
+console.log("bem vindo");
+
+
+ const mes = input.question('Qual mes sera festivo?');
+
+ if (mes === "feveiro") {
+     console.log("Mes do carnaval");
  }
- else if (mes = Junho) {
-     console.log('Mes do São João')
+ else if (mes === "junho") {
+     console.log('Mes do São João');
 
  }
 
- else if (mes = abril) {console.log('Mes da pascoa')
+ else if (mes === "abril") {
+     console.log('Mes da pascoa');
 }
 
-else if (mes = Dezembro) {console.log('Mes do natal')}
+else if (mes === "Dezembro") {
+    console.log('Mes do natal') 
+}
 
-else {console.log('não é mes festivo')
+else {console.log(`${mes} não é um mes festivo`)
 }
