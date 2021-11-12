@@ -50,7 +50,9 @@ let vassouras = 6000
 let bruxos = sapatos / (10*100)
 console.log(bruxos)*/
 
-let amigos = 3
+/*let amigos = 3
 let conta = 250
 let totalapagar = conta * 110/100 /amigos
-console.log(totalapagar)
+console.log(totalapagar)*/
+
+
